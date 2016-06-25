@@ -14,6 +14,6 @@ public class CalculateTest {
         Calculate calculate = new Calculate();
         int n = calculate.calA(2, 3);
 
-        assertEquals(4, n);
+        assertEquals(6, n);
     }
 }
