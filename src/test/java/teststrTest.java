@@ -12,7 +12,7 @@ public class teststrTest {
         Teststr teststr = new Teststr();
         String s = teststr.str1("1","4");
 
-        assertTrue(s.contains("1 5"));
+        assertTrue(s.contains("1 4"));
 //                ("1 3");
     }
 }
