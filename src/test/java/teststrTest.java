@@ -11,6 +11,7 @@ public class teststrTest {
     public void teststr1 () throws Exception {
         Teststr teststr = new Teststr();
         String s = teststr.str1("1","4");
+        System.out.println("test");
 
         assertTrue(s.contains("1 4"));
 //                ("1 3");
